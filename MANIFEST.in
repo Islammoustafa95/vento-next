@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include vento *.css
+recursive-include vento *.csv
+recursive-include vento *.html
+recursive-include vento *.ico
+recursive-include vento *.js
+recursive-include vento *.json
+recursive-include vento *.md
+recursive-include vento *.png
+recursive-include vento *.py
+recursive-include vento *.svg
+recursive-include vento *.txt
+recursive-exclude vento *.pyc
